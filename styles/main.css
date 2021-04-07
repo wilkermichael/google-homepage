@@ -1,3 +1,29 @@
+.top-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+.l-left{
+    float: left;
+}
+
+.top-link{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color:black;
+}
+
+.l-right{
+    float:right;
+}
+
 .search {
     text-align: center;
     margin-top: 250px;
@@ -54,4 +80,47 @@ input[type=text]{
 .g-button:hover {
     box-shadow: 0 0 11px rgba(33,33,33,.2);
     cursor: pointer; 
+}
+
+.bottom-bar{
+    position: relative;
+    top: 310px;
+    color: rgba(0,0,0,.54);
+    background-color: #f8f9fa;
+    display: block;
+}
+
+.country{
+    font-size: 16px;
+    padding: 15px 48px;
+}
+
+.bottom-list{
+    background-color: #f8f9fa;
+    border-top: solid silver;
+    border-width: thin;
+    list-style-type: none;
+    overflow: hidden;
+    position: relative;
+    top: 290px;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+.bl-left{
+    float: left;
+}
+
+.bottom-link{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    font-size: 16px;
+}
+
+.bl-right{
+    float:right;
 }
